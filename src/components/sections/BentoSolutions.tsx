@@ -1,9 +1,10 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Layers, Box, Maximize, Image as ImageIcon, ArrowRightLeft, ShieldCheck, ArrowUpRight } from "lucide-react";
 
-const containerVariants = {
+// Add the : Variants type to explicitly satisfy TypeScript
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
@@ -11,9 +12,15 @@ const containerVariants = {
   }
 };
 
-const itemVariants = {
+// Add the : Variants type here as well
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 30, scale: 0.95 },
-  show: { opacity: 1, y: 0, scale: 1, transition: { type: "spring", stiffness: 80, damping: 20 } }
+  show: { 
+    opacity: 1, 
+    y: 0, 
+    scale: 1, 
+    transition: { type: "spring", stiffness: 80, damping: 20 } 
+  }
 };
 
 export default function BentoSolutions() {
