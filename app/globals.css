@@ -1,26 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Updated to a rich Emerald Green shade */
+  --color-brand-dark: #064e3b;      /* Emerald 900 */
+  --color-brand-accent: #10b981;    /* Emerald 500 */
+  --color-brand-light: #ffffff;     /* White background */
+  --color-brand-surface: #f0fdf4;   /* Very light emerald surface for cards */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-brand-dark: var(--color-brand-dark);
+  --color-brand-accent: var(--color-brand-accent);
+  --color-brand-light: var(--color-brand-light);
+  --color-brand-surface: var(--color-brand-surface);
+  
+  --color-background: var(--color-brand-light);
+  --color-foreground: var(--color-brand-dark);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
 }
