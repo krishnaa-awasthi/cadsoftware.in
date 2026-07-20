@@ -21,7 +21,7 @@ export default function WhoWeServe() {
         }
       `}</style>
 
-      <h2 className="text-[10vw] md:text-[6vw] font-bold tracking-tighter text-emerald-400 leading-[0.9] mb-12">
+      <h2 className="text-[10vw] md:text-[6vw] font-bold tracking-tighter text-emerald-900 leading-[0.9] mb-12">
         WHO WE SERVE
       </h2>
       

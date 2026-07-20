@@ -22,14 +22,14 @@ export default function Footer() {
           </button>
         </div>
 
-        {/* Details & Copyright */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-zinc-500 text-sm font-medium">
-          <div className="space-y-4">
-            <p className="text-white text-lg font-bold tracking-tight mb-6">Contact</p>
-            <p className="hover:text-white transition-colors cursor-pointer">hello@cadsoftware.in</p>
-            <p className="hover:text-white transition-colors cursor-pointer">+91 (Insert Number)</p>
-            <p>Kanpur, Uttar Pradesh, India</p>
-          </div>
+            {/* Details & Copyright */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-zinc-500 text-sm font-medium">
+              <div className="space-y-4">
+                <p className="text-white text-lg font-bold tracking-tight mb-6">Contact</p>
+                <p className="hover:text-white transition-colors cursor-pointer">sayed@zartekitsolutions.com</p>
+                <p className="hover:text-white transition-colors cursor-pointer">+91 9773821029</p>
+                <p>C 196 Sector 63, Noida, UP 201301, India</p>
+              </div>
           
           <div className="space-y-4">
             <p className="text-white text-lg font-bold tracking-tight mb-6">Legal</p>

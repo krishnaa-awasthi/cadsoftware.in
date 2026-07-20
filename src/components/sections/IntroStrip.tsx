@@ -13,7 +13,7 @@ export default function IntroStrip() {
   return (
     <section className="bg-white py-24 px-4 md:px-8">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-black mb-8 leading-tight">
+        <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-emerald-900 mb-8 leading-tight">
           Choosing the right CAD software shouldn't be complicated.
         </h2>
         <p className="text-xl text-zinc-500 font-medium leading-relaxed mb-12">
@@ -21,7 +21,7 @@ export default function IntroStrip() {
         </p>
         
         <div className="bg-[#F7F7F8] rounded-[2rem] p-8 md:p-12 text-left border border-zinc-100 shadow-sm">
-          <h3 className="text-2xl font-bold text-black mb-6">Whether you need:</h3>
+          <h3 className="text-2xl font-bold text-emerald-900 mb-6">Whether you need:</h3>
           <ul className="grid md:grid-cols-2 gap-4 mb-8">
             {points.map((point, i) => (
               <li key={i} className="flex items-start gap-3">
@@ -30,7 +30,7 @@ export default function IntroStrip() {
               </li>
             ))}
           </ul>
-          <p className="text-xl text-black font-bold border-t border-zinc-200 pt-6">
+          <p className="text-xl text-emerald-900 font-bold border-t border-zinc-200 pt-6">
             We help you get there—with the right software, right licensing, and right support.
           </p>
         </div>

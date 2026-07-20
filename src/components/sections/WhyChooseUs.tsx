@@ -15,7 +15,7 @@ export default function WhyChooseUs() {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-20">
         <div className="lg:w-1/3">
           <div className="sticky top-32">
-            <h2 className="text-5xl font-bold tracking-tighter text-emerald-400 mb-6 leading-tight">
+            <h2 className="text-5xl font-bold tracking-tighter text-emerald-900 mb-6 leading-tight">
               WHY CHOOSE <br/>CADSOFTWARE.IN
             </h2>
             <p className="text-xl text-zinc-500 font-medium leading-relaxed">
@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
                 {feature.icon}
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-emerald-400 mb-3 tracking-tight">{feature.title}</h3>
+                <h3 className="text-2xl font-bold text-emerald-900 mb-3 tracking-tight">{feature.title}</h3>
                 <p className="text-zinc-500 font-medium text-lg leading-relaxed">{feature.desc}</p>
               </div>
             </div>
