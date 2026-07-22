@@ -43,8 +43,14 @@ A modern, responsive web application for **CADsoftware.in** (a division of Zarte
 ├── next.config.mjs
 ├── package.json
 └── tsconfig.json
+```
 
-🚀 Getting Started1. PrerequisitesEnsure you have Node.js 18.x or higher installed on your machine.2. InstallationClone the repository and install the dependencies:Bash# Clone the repository
+🚀 Getting Started
+
+1. PrerequisitesEnsure you have Node.js 18.x or higher installed on your machine.
+2. InstallationClone the repository and install the dependencies:
+3.Bash# Clone the repository
+
 git clone [https://github.com/your-username/cad-software-website.git](https://github.com/your-username/cad-software-website.git)
 
 # Navigate into the project directory
@@ -52,7 +58,9 @@ cd cad-software-website
 
 # Install dependencies
 npm install
-3. Environment VariablesCreate a .env.local file in the root of your project directory:Code snippet# Resend API Key for sending emails & OTPs
+3. Environment Variables
+Create a .env.local file in the root of your project directory:
+Code snippet# Resend API Key for sending emails & OTPs
 RESEND_API_KEY=re_123456789_your_api_key_here
 Note: During development, Resend allows you to send test emails from onboarding@resend.dev to the email registered on your Resend account. For production, add and verify your custom domain in the Resend dashboard.4. Run Development ServerStart the development server:Bashnpm run dev
 Open http://localhost:3000 in your browser to view the application.🔌 API Endpoints SummaryMethodEndpointDescriptionPayload BodyPOST/api/contactHandles contact form submission{ name, email, message }POST/api/auth/send-otpSends 6-digit OTP to user email{ email }POST/api/auth/verify-otpVerifies submitted OTP code{ email, otp }🛠️ Building for ProductionTo create an optimized production build:Bashnpm run build
