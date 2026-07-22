@@ -5,7 +5,8 @@ import AboutUs from "../src/components/sections/AboutUs";
 import BentoSolutions from "../src/components/sections/BentoSolutions";
 import WhoWeServe from "../src/components/sections/WhoWeServe";
 import WhyChooseUs from "../src/components/sections/WhyChooseUs";
-import Contact from "../src/components/sections/Contact";
+import Contact from "../src/components/sections/ContactForm";
+import Footer from "../src/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <WhoWeServe />
       <WhyChooseUs />
       <Contact />
+      <Footer />
     </main>
   );
 }
